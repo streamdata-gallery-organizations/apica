@@ -5,7 +5,7 @@ x-complete: 0
 info:
   title: Messages API Clear a bucket (remove all messages).
   version: 1.0.0
-  description: ""
+  description: Clear a bucket (remove all messages)..
 schemes:
 - http
 produces:
@@ -16,8 +16,8 @@ paths:
   /buckets/{bucketKey}/messages:
     delete:
       summary: Clear a bucket (remove all messages).
-      description: ""
-      operationId: ""
+      description: Clear a bucket (remove all messages)..
+      operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
       parameters:
       - in: path
@@ -27,6 +27,8 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
 x-streamrank:
   polling_total_time_average: 0

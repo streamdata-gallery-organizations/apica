@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Browser Checks API Checks Browser {checkId}
+  title: Browser Checks API Checks Browser
   version: 1.0.0
   description: Updates a browser check.
 schemes:
@@ -26,7 +26,7 @@ paths:
       - Browser
   '/checks/browser/{checkId} ':
     ' put ':
-      summary: Checks Browser {checkId}
+      summary: Checks Browser
       description: Updates a browser check.
       operationId: -checks-browser-checkid-
       x-api-path-slug: checksbrowsercheckid-put

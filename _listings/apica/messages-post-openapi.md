@@ -16,8 +16,8 @@ paths:
   /buckets/{bucketKey}/messages:
     delete:
       summary: Clear a bucket (remove all messages).
-      description: ""
-      operationId: ""
+      description: Clear a bucket (remove all messages)..
+      operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
       parameters:
       - in: path
@@ -27,11 +27,13 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
     get:
       summary: Retrieve a list of messages in a bucket
-      description: ""
-      operationId: ""
+      description: Retrieve a list of messages in a bucket.
+      operationId: getBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-get
       parameters:
       - in: query
@@ -50,11 +52,13 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
     post:
       summary: Create a message
-      description: ""
-      operationId: ""
+      description: Create a message.
+      operationId: postBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-post
       parameters:
       - in: body
@@ -65,12 +69,14 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
   /buckets/{bucketKey}/messages/{messageId}:
     get:
       summary: Retrieve the details for a single message.
-      description: ""
-      operationId: ""
+      description: Retrieve the details for a single message..
+      operationId: getBucketsBucketkeyMessagesMessage
       x-api-path-slug: bucketsbucketkeymessagesmessageid-get
       parameters:
       - in: path
@@ -83,24 +89,27 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
+      - MessageId
   '/messages?active={active}&amp;customerId={customerId} ':
     ' get ':
       summary: Messages?active={active}&amp;customerId={customerId}
       description: Gets a list of UI messages. UI messages are used for user notifications
         on announcements/information/warnings.
-      operationId: ""
+      operationId: getMessagesActiveActive&amp;customerCustomer
       x-api-path-slug: messagesactiveactiveampcustomeridcustomerid-get
       responses:
         200:
           description: OK
       tags:
-      - Messages
+      - Messages?active=active&amp;customerId=customerId
   '/messages ':
     ' post ':
       summary: Messages
       description: Creates an UI message.
-      operationId: ""
+      operationId: postMessages
       x-api-path-slug: messages-post
       responses:
         200:

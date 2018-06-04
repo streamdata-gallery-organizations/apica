@@ -5,7 +5,7 @@ x-complete: 0
 info:
   title: Messages API Retrieve the details for a single message.
   version: 1.0.0
-  description: ""
+  description: Retrieve the details for a single message..
 schemes:
 - http
 produces:
@@ -16,8 +16,8 @@ paths:
   /buckets/{bucketKey}/messages:
     delete:
       summary: Clear a bucket (remove all messages).
-      description: ""
-      operationId: ""
+      description: Clear a bucket (remove all messages)..
+      operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
       parameters:
       - in: path
@@ -27,11 +27,13 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
     get:
       summary: Retrieve a list of messages in a bucket
-      description: ""
-      operationId: ""
+      description: Retrieve a list of messages in a bucket.
+      operationId: getBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-get
       parameters:
       - in: query
@@ -50,11 +52,13 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
     post:
       summary: Create a message
-      description: ""
-      operationId: ""
+      description: Create a message.
+      operationId: postBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-post
       parameters:
       - in: body
@@ -65,12 +69,14 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
   /buckets/{bucketKey}/messages/{messageId}:
     get:
       summary: Retrieve the details for a single message.
-      description: ""
-      operationId: ""
+      description: Retrieve the details for a single message..
+      operationId: getBucketsBucketkeyMessagesMessage
       x-api-path-slug: bucketsbucketkeymessagesmessageid-get
       parameters:
       - in: path
@@ -83,7 +89,10 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
+      - MessageId
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

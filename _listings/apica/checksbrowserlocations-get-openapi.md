@@ -26,7 +26,7 @@ paths:
       - Browser
   '/checks/browser/{checkId} ':
     ' put ':
-      summary: Checks Browser {checkId}
+      summary: Checks Browser
       description: Updates a browser check.
       operationId: -checks-browser-checkid-
       x-api-path-slug: checksbrowsercheckid-put

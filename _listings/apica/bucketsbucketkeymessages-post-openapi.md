@@ -5,7 +5,7 @@ x-complete: 0
 info:
   title: Messages API Create a message
   version: 1.0.0
-  description: ""
+  description: Create a message.
 schemes:
 - http
 produces:
@@ -16,8 +16,8 @@ paths:
   /buckets/{bucketKey}/messages:
     delete:
       summary: Clear a bucket (remove all messages).
-      description: ""
-      operationId: ""
+      description: Clear a bucket (remove all messages)..
+      operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
       parameters:
       - in: path
@@ -27,11 +27,13 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
     get:
       summary: Retrieve a list of messages in a bucket
-      description: ""
-      operationId: ""
+      description: Retrieve a list of messages in a bucket.
+      operationId: getBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-get
       parameters:
       - in: query
@@ -50,11 +52,13 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
     post:
       summary: Create a message
-      description: ""
-      operationId: ""
+      description: Create a message.
+      operationId: postBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-post
       parameters:
       - in: body
@@ -65,6 +69,8 @@ paths:
         200:
           description: OK
       tags:
+      - Buckets
+      - BucketKey
       - Messages
 x-streamrank:
   polling_total_time_average: 0

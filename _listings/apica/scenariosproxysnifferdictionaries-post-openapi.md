@@ -17,7 +17,7 @@ paths:
     ' post ':
       summary: Scenarios Proxysniffer Dictionaries
       description: Adds Proxy Sniffer scenario custom dictionary.
-      operationId: ""
+      operationId: postScenariosProxysnifferDictionaries
       x-api-path-slug: scenariosproxysnifferdictionaries-post
       responses:
         200:

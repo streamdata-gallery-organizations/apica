@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Browser Checks API Checks Browser {checkId} Results {resultId} URLdata?format={format}
+  title: Browser Checks API Checks Browser Results {resultId} URLdata?format={format}
   version: 1.0.0
   description: Gets a file that contains browser check result data.
 schemes:
@@ -26,7 +26,7 @@ paths:
       - Browser
   '/checks/browser/{checkId} ':
     ' put ':
-      summary: Checks Browser {checkId}
+      summary: Checks Browser
       description: Updates a browser check.
       operationId: -checks-browser-checkid-
       x-api-path-slug: checksbrowsercheckid-put
@@ -48,7 +48,7 @@ paths:
       - Browser
   '/checks/browser/{checkId}/results/{resultId}/urldata?format={format} ':
     ' get ':
-      summary: Checks Browser {checkId} Results {resultId} URLdata?format={format}
+      summary: Checks Browser Results {resultId} URLdata?format={format}
       description: Gets a file that contains browser check result data.
       operationId: -checks-browser-checkid-results-resultid-urldataformatformat-
       x-api-path-slug: checksbrowsercheckidresultsresultidurldataformatformat-get

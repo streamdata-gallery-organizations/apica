@@ -1,41 +1,43 @@
 ---
-name: Apica
-x-slug: apica
-description: Apica???s performance testing and monitoring solutions provide critical
-  peak performance data and 24/7 monitoring of applications and sites around the world.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-x-kinRank: "7"
-x-alexaRank: "827487"
-tags: Apica
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.md
+name: Streadata.io API Gallery - Apica
+description: This is a repository of apica APIs, self-contained as a Github repository,
+  with HTML and YAML representations of the APIs and their surrounding operations.
+image: http://template.streamdata.gallery/assets/apica.png
+created: "2018-02-24"
+modified: "2018-06-03"
+url: http://apica.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-blog
-  url: https://www.apicasystem.com/blog/
-- type: x-blog-rss
-  url: https://www.apicasystem.com/feed/
-- type: x-crunchbase
-  url: https://crunchbase.com/organization/apica
-- type: x-developer
-  url: http://api-wpm.apicasystem.com/v3/help
-- type: x-email
-  url: sales@apicasystems.com
-- type: x-email
-  url: swesales@apicasystems.com
-- type: x-email
-  url: support@apicasystems.com
-- type: x-email
-  url: operations@apicasystem.com
-- type: x-github
-  url: https://github.com/ApicaSystem
-- type: x-twitter
-  url: https://twitter.com/apicasystems
-- type: x-website
-  url: https://www.apicasystem.com
-include: []
+tags: Apica
+include:
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
+- name: Apica
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

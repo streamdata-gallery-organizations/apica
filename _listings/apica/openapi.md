@@ -16,7 +16,7 @@ paths:
     ' post ':
       summary: Scenarios Proxysniffer Dictionaries
       description: Adds Proxy Sniffer scenario custom dictionary.
-      operationId: ""
+      operationId: postScenariosProxysnifferDictionaries
       x-api-path-slug: scenariosproxysnifferdictionaries-post
       responses:
         200:
@@ -29,7 +29,7 @@ paths:
       description: Gets a Proxy Sniffer scenario custom dictionary by dictionary key.
         Custom dictionary can contain any data used by Proxy Sniffer scripts which
         needs to be stored separately from scripts.
-      operationId: ""
+      operationId: getScenariosProxysnifferDictionariesDictionaryKey
       x-api-path-slug: scenariosproxysnifferdictionariesdictionary-key-get
       responses:
         200:
@@ -39,7 +39,7 @@ paths:
     ' put ':
       summary: Scenarios Proxysniffer Dictionaries {dictionary_key}
       description: Updates Proxy Sniffer scenario custom dictionary.
-      operationId: ""
+      operationId: putScenariosProxysnifferDictionariesDictionaryKey
       x-api-path-slug: scenariosproxysnifferdictionariesdictionary-key-put
       responses:
         200:
