@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Browser Checks API Checks Browser Results URLdata
+  title: Browser Checks API Checks Browser Results {resultId} URLdata?format={format}
   version: 1.0.0
-  description: Gets browser check results in json format by result ids.
+  description: Gets a file that contains browser check result data.
 schemes:
 - http
 produces:
@@ -52,17 +52,6 @@ paths:
       description: Gets a file that contains browser check result data.
       operationId: -checks-browser-checkid-results-resultid-urldataformatformat-
       x-api-path-slug: checksbrowsercheckidresultsresultidurldata-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Browser
-  '/checks/browser/{checkId}/results/urldata ':
-    ' post ':
-      summary: Checks Browser Results URLdata
-      description: Gets browser check results in json format by result ids.
-      operationId: -checks-browser-checkid-results-urldata-
-      x-api-path-slug: checksbrowsercheckidresultsurldata-post
       responses:
         200:
           description: OK

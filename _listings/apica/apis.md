@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "827487"
 tags: Apica
-created: "2018-06-03"
-modified: "2018-06-03"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
@@ -206,13 +206,13 @@ apis:
   description: Gets a file that contains browser check result data.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///checks/browser/{checkId}/results/{resultId}/urldata?format={format} '
+  baseURL: ://///checks/browser/{checkId}/results/{resultId}/urldata
   tags: Browser
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checksbrowsercheckidresultsresultidurldataformatformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checksbrowsercheckidresultsresultidurldata-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checksbrowsercheckidresultsresultidurldataformatformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checksbrowsercheckidresultsresultidurldata-get-openapi.md
 - name: Browser Checks API Checks Browser Results URLdata
   x-api-slug: browser-checks-api
   description: Gets browser check results in json format by result ids.
@@ -297,31 +297,31 @@ apis:
   description: Gets a specific check result by a numeric java timestamp.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: 'https://api.pingdom.com////checks/{checkId}/results/{millisecondsUtc}?detail_level={detail_level} '
+  baseURL: https://api.pingdom.com////checks/{checkId}/results/{millisecondsUtc}
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscheckidresultsmillisecondsutcdetail-leveldetail-level-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscheckidresultsmillisecondsutc-get-openapi.md
 - name: Checks API Checks {checkId} Results?mostrecent={mostrecent}&amp;detail_level={detail_level}
   x-api-slug: checks-api
   description: Gets the most recent check results.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: 'https://api.pingdom.com////checks/{checkId}/results?mostrecent={mostrecent}&amp;detail_level={detail_level} '
+  baseURL: https://api.pingdom.com////checks/{checkId}/results
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscheckidresultsmostrecentmostrecentampdetail-leveldetail-level-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscheckidresults-get-openapi.md
 - name: Checks API Checks {checkId} Results?fromUtc={fromUtc}&amp;toUtc={toUtc}&amp;detail_level={detail_level}
   x-api-slug: checks-api
   description: Gets check results between two dates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: 'https://api.pingdom.com////checks/{checkId}/results?fromUtc={fromUtc}&amp;toUtc={toUtc}&amp;detail_level={detail_level} '
+  baseURL: https://api.pingdom.com////checks/{checkId}/results
   tags: Checks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscheckidresultsfromutcfromutcamptoutctoutcampdetail-leveldetail-level-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscheckidresults-get-openapi.md
 - name: Checks API Get Check List
   x-api-slug: checks-api
   description: Returns a list overview of all checks.
@@ -438,13 +438,13 @@ apis:
     (version 2).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///checks/command-v2/locations?protocol={protocol} '
+  baseURL: ://///checks/command-v2/locations
   tags: Checks,Command
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscommandv2locationsprotocolprotocol-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscommandv2locations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscommandv2locationsprotocolprotocol-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/checkscommandv2locations-get-openapi.md
 - name: Checks Command API
   x-api-slug: checks-command-api
   description: Apica???s performance testing and monitoring solutions provide critical
