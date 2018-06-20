@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "827487"
 tags: Apica
-created: "2018-06-19"
-modified: "2018-06-19"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apica/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
