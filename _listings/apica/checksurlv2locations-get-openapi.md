@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks URL Checks URL V2 Locations
+  title: Checks URL Checks URL Locations
   version: 1.0.0
   description: Gets a list of all locations that are available for URL (version 2)
     checks.
@@ -28,7 +28,7 @@ paths:
       - URL
   '/checks/url-v2 ':
     ' post ':
-      summary: Checks URL V2
+      summary: Checks URL
       description: Creates a new URL check (version 2).
       operationId: -checks-url-v2-
       x-api-path-slug: checksurlv2-post
@@ -40,7 +40,7 @@ paths:
       - URL
   '/checks/url/{checkId} ':
     ' put ':
-      summary: Checks URL {checkId}
+      summary: Checks URL
       description: Updates a URL check (legacy version 1).
       operationId: -checks-url-checkid-
       x-api-path-slug: checksurlcheckid-put
@@ -52,7 +52,7 @@ paths:
       - URL
   '/checks/url-v2/{checkId} ':
     ' put ':
-      summary: Checks URL V2 {checkId}
+      summary: Checks URL
       description: Updates a URL check (version 2).
       operationId: -checks-url-v2-checkid-
       x-api-path-slug: checksurlv2checkid-put
@@ -77,7 +77,7 @@ paths:
       - URL
   '/checks/url-v2/locations ':
     ' get ':
-      summary: Checks URL V2 Locations
+      summary: Checks URL Locations
       description: Gets a list of all locations that are available for URL (version
         2) checks.
       operationId: -checks-url-v2-locations-

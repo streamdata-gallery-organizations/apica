@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks URL Checks URL V2
+  title: Checks URL Checks URL
   version: 1.0.0
   description: Creates a new URL check (version 2).
 schemes:
@@ -27,7 +27,7 @@ paths:
       - URL
   '/checks/url-v2 ':
     ' post ':
-      summary: Checks URL V2
+      summary: Checks URL
       description: Creates a new URL check (version 2).
       operationId: -checks-url-v2-
       x-api-path-slug: checksurlv2-post

@@ -27,7 +27,7 @@ paths:
       - Pings
   '/checks/ping/{checkId} ':
     ' put ':
-      summary: Checks Ping {checkId}
+      summary: Checks Ping
       description: Updates a Ping check.
       operationId: -checks-ping-checkid-
       x-api-path-slug: checkspingcheckid-put

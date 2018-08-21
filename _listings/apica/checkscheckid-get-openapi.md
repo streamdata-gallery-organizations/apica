@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks API Checks {checkId}
+  title: Checks API Get Check
   description: Gets info about a check, current SLA, last result and its status.
   version: 1.0.0
 host: api.pingdom.com
@@ -17,7 +17,7 @@ consumes:
 paths:
   '/checks ':
     ' get ':
-      summary: Checks
+      summary: Get Checks
       description: Gets a list of all checks that are visible to you as a user or
         a customer depending on the request context.
       operationId: getChecks
@@ -29,7 +29,7 @@ paths:
       - Checks
   '/checks/{checkId} ':
     ' get ':
-      summary: Checks {checkId}
+      summary: Get Check
       description: Gets info about a check, current SLA, last result and its status.
       operationId: getChecksCheck
       x-api-path-slug: checkscheckid-get

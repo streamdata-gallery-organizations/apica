@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks Ping API Checks Ping {checkId}
+  title: Checks Ping API Checks Ping
   version: 1.0.0
   description: Updates a Ping check.
 schemes:
@@ -27,7 +27,7 @@ paths:
       - Pings
   '/checks/ping/{checkId} ':
     ' put ':
-      summary: Checks Ping {checkId}
+      summary: Checks Ping
       description: Updates a Ping check.
       operationId: -checks-ping-checkid-
       x-api-path-slug: checkspingcheckid-put

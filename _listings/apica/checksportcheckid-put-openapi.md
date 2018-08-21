@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks Port API Checks Port {checkId}
+  title: Checks Port API Checks Port
   version: 1.0.0
   description: Updates a Port check.
 schemes:
@@ -27,7 +27,7 @@ paths:
       - Ports
   '/checks/port/{checkId} ':
     ' put ':
-      summary: Checks Port {checkId}
+      summary: Checks Port
       description: Updates a Port check.
       operationId: -checks-port-checkid-
       x-api-path-slug: checksportcheckid-put

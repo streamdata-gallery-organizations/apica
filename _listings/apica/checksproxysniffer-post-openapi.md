@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks Proxysniffer Checks Proxysniffer
+  title: Checks Proxysniffer Checks Proxy Sniffer
   version: 1.0.0
   description: Creates a new ProxySniffer check.
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   '/checks/proxysniffer ':
     ' post ':
-      summary: Checks Proxysniffer
+      summary: Checks Proxy Sniffer
       description: Creates a new ProxySniffer check.
       operationId: -checks-proxysniffer-
       x-api-path-slug: checksproxysniffer-post

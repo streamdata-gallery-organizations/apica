@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Scenarios API Scenarios Proxysniffer Dictionaries
+  title: Scenarios API Scenarios Proxy Sniffer Dictionaries
   version: 1.0.0
   description: Adds Proxy Sniffer scenario custom dictionary.
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   '/scenarios/proxysniffer/dictionaries ':
     ' post ':
-      summary: Scenarios Proxysniffer Dictionaries
+      summary: Scenarios Proxy Sniffer Dictionaries
       description: Adds Proxy Sniffer scenario custom dictionary.
       operationId: postScenariosProxysnifferDictionaries
       x-api-path-slug: scenariosproxysnifferdictionaries-post
@@ -24,6 +24,9 @@ paths:
           description: OK
       tags:
       - Scenarios
+      - Proxy
+      - Sniffer
+      - Dictionaries
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks Job API Checks {checkId} Job
+  title: Checks Job API Get Checks Job
   version: 1.0.0
   description: Executes a check.
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   '/checks/{checkId}/job ':
     ' get ':
-      summary: Checks {checkId} Job
+      summary: Get Checks Job
       description: DEPRECATED. Gets the current job status for a check.
       operationId: -checks-checkid-job-
       x-api-path-slug: checkscheckidjob-get
@@ -26,7 +26,7 @@ paths:
       - Checks
       - Jobs
     ' post ':
-      summary: Checks {checkId} Job
+      summary: Get Checks Job
       description: Executes a check.
       operationId: -checks-checkid-job-
       x-api-path-slug: checkscheckidjob-post

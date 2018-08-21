@@ -28,7 +28,7 @@ paths:
       - URL
   '/checks/url-v2 ':
     ' post ':
-      summary: Checks URL V2
+      summary: Checks URL
       description: Creates a new URL check (version 2).
       operationId: -checks-url-v2-
       x-api-path-slug: checksurlv2-post
@@ -40,7 +40,7 @@ paths:
       - URL
   '/checks/url/{checkId} ':
     ' put ':
-      summary: Checks URL {checkId}
+      summary: Checks URL
       description: Updates a URL check (legacy version 1).
       operationId: -checks-url-checkid-
       x-api-path-slug: checksurlcheckid-put
@@ -52,7 +52,7 @@ paths:
       - URL
   '/checks/url-v2/{checkId} ':
     ' put ':
-      summary: Checks URL V2 {checkId}
+      summary: Checks URL
       description: Updates a URL check (version 2).
       operationId: -checks-url-v2-checkid-
       x-api-path-slug: checksurlv2checkid-put

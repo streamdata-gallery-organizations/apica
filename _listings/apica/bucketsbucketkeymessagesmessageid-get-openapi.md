@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Messages API Retrieve the details for a single message.
+  title: Messages API Get Buckets Messages Messageid
   version: 1.0.0
   description: Retrieve the details for a single message..
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   /buckets/{bucketKey}/messages:
     delete:
-      summary: Clear a bucket (remove all messages).
+      summary: Delete Buckets Messages
       description: Clear a bucket (remove all messages)..
       operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
@@ -31,7 +31,7 @@ paths:
       - BucketKey
       - Messages
     get:
-      summary: Retrieve a list of messages in a bucket
+      summary: Get Buckets Messages
       description: Retrieve a list of messages in a bucket.
       operationId: getBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-get
@@ -56,7 +56,7 @@ paths:
       - BucketKey
       - Messages
     post:
-      summary: Create a message
+      summary: Post Buckets Messages
       description: Create a message.
       operationId: postBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-post
@@ -74,7 +74,7 @@ paths:
       - Messages
   /buckets/{bucketKey}/messages/{messageId}:
     get:
-      summary: Retrieve the details for a single message.
+      summary: Get Buckets Messages Messageid
       description: Retrieve the details for a single message..
       operationId: getBucketsBucketkeyMessagesMessage
       x-api-path-slug: bucketsbucketkeymessagesmessageid-get

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks Proxysniffer Checks Proxysniffer {checkId} Results URLdata
+  title: Checks Proxysniffer Checks Proxy Sniffer Results URLdata
   version: 1.0.0
   description: Gets ProxySniffer check results in json format by result ids.
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   '/checks/proxysniffer ':
     ' post ':
-      summary: Checks Proxysniffer
+      summary: Checks Proxy Sniffer
       description: Creates a new ProxySniffer check.
       operationId: -checks-proxysniffer-
       x-api-path-slug: checksproxysniffer-post
@@ -27,7 +27,7 @@ paths:
       - Proxy
   '/checks/proxysniffer/{checkId} ':
     ' put ':
-      summary: Checks Proxysniffer {checkId}
+      summary: Checks Proxy Sniffer
       description: Updates a proxy sniffer check.
       operationId: -checks-proxysniffer-checkid-
       x-api-path-slug: checksproxysniffercheckid-put
@@ -39,7 +39,7 @@ paths:
       - Proxy
   '/checks/proxysniffer/locations ':
     ' get ':
-      summary: Checks Proxysniffer Locations
+      summary: Checks Proxy Sniffer Locations
       description: Gets a list of all locations that are available for ProxySniffer
         checks.
       operationId: -checks-proxysniffer-locations-
@@ -52,7 +52,7 @@ paths:
       - Proxy
   '/checks/proxysniffer/{checkId}/results/{resultId}/urldata?format={format} ':
     ' get ':
-      summary: Checks Proxysniffer {checkId} Results {resultId} URLdata?format={format}
+      summary: Checks Proxysniffer Results
       description: Gets a file that contains ProxySniffer check result data.
       operationId: -checks-proxysniffer-checkid-results-resultid-urldataformatformat-
       x-api-path-slug: checksproxysniffercheckidresultsresultidurldataformatformat-get
@@ -64,7 +64,7 @@ paths:
       - Proxy
   '/checks/proxysniffer/{checkId}/results/urldata ':
     ' post ':
-      summary: Checks Proxysniffer {checkId} Results URLdata
+      summary: Checks Proxy Sniffer Results URLdata
       description: Gets ProxySniffer check results in json format by result ids.
       operationId: -checks-proxysniffer-checkid-results-urldata-
       x-api-path-slug: checksproxysniffercheckidresultsurldata-post

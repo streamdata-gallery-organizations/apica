@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks API Checks
+  title: Checks API Get Checks
   description: Gets a list of all checks that are visible to you as a user or a customer
     depending on the request context.
   version: 1.0.0
@@ -18,7 +18,7 @@ consumes:
 paths:
   '/checks ':
     ' get ':
-      summary: Checks
+      summary: Get Checks
       description: Gets a list of all checks that are visible to you as a user or
         a customer depending on the request context.
       operationId: getChecks

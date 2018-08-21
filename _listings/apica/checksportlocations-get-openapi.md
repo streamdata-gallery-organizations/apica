@@ -27,7 +27,7 @@ paths:
       - Ports
   '/checks/port/{checkId} ':
     ' put ':
-      summary: Checks Port {checkId}
+      summary: Checks Port
       description: Updates a Port check.
       operationId: -checks-port-checkid-
       x-api-path-slug: checksportcheckid-put

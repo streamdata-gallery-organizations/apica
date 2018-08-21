@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Checks Command API Checks Command V2
+  title: Checks Command API Checks Command
   version: 1.0.0
   description: Creates a new Command check (version 2).
 schemes:
@@ -27,7 +27,7 @@ paths:
       - Command
   '/checks/command-v2 ':
     ' post ':
-      summary: Checks Command V2
+      summary: Checks Command
       description: Creates a new Command check (version 2).
       operationId: -checks-command-v2-
       x-api-path-slug: checkscommandv2-post
